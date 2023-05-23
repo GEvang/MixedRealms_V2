@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4453212393665860}
   - component: {fileID: 33612079307670940}
   - component: {fileID: 23829651874465098}
-  - component: {fileID: 64761452332794258}
+  - component: {fileID: 8449439857349294480}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -86,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64761452332794258
-MeshCollider:
+--- !u!65 &8449439857349294480
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,10 +104,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1023995795120224
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +118,7 @@ GameObject:
   - component: {fileID: 4874672761395722}
   - component: {fileID: 33792442006197480}
   - component: {fileID: 23386744843314474}
-  - component: {fileID: 64787893403938748}
+  - component: {fileID: 211887645270624281}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -194,8 +193,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64787893403938748
-MeshCollider:
+--- !u!65 &211887645270624281
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -212,10 +211,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1031736915830004
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +225,7 @@ GameObject:
   - component: {fileID: 4469074789159682}
   - component: {fileID: 33462917129126632}
   - component: {fileID: 23817845498215452}
-  - component: {fileID: 64381435735436958}
+  - component: {fileID: 6215870441118182837}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -302,8 +300,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64381435735436958
-MeshCollider:
+--- !u!65 &6215870441118182837
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -320,10 +318,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1047729113327282
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +332,7 @@ GameObject:
   - component: {fileID: 4270720531840608}
   - component: {fileID: 33293834701402628}
   - component: {fileID: 23554883483174702}
-  - component: {fileID: 64086694017736412}
+  - component: {fileID: 5162949356750437567}
   m_Layer: 0
   m_Name: greek_stairs_stone_corner
   m_TagString: Untagged
@@ -408,8 +405,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64086694017736412
-MeshCollider:
+--- !u!65 &5162949356750437567
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -426,10 +423,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 27d661bd65a7a4c7b8b90324c3430a85, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 3.0037084, z: 1.0000001}
+  m_Center: {x: 0.5000002, y: -0.49814582, z: -0.49999994}
 --- !u!1 &1056340890737918
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +437,7 @@ GameObject:
   - component: {fileID: 4344420469571592}
   - component: {fileID: 33354854385036376}
   - component: {fileID: 23761522063707170}
-  - component: {fileID: 64493434272608610}
+  - component: {fileID: 5118931862861713787}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -516,8 +512,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64493434272608610
-MeshCollider:
+--- !u!65 &5118931862861713787
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -534,10 +530,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1061382533708400
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +544,7 @@ GameObject:
   - component: {fileID: 4440417928985524}
   - component: {fileID: 33111205022820346}
   - component: {fileID: 23240938621040122}
-  - component: {fileID: 64829417841189496}
+  - component: {fileID: 5618827496346133607}
   m_Layer: 0
   m_Name: greek_wall_2
   m_TagString: Untagged
@@ -623,8 +618,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64829417841189496
-MeshCollider:
+--- !u!65 &5618827496346133607
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -641,10 +636,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f1367657d847b445c9c29ab1d32aaf45, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 0.39999992}
+  m_Center: {x: 4.9780126e-17, y: 1.5, z: 2.6645353e-15}
 --- !u!1 &1072454118985476
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +650,7 @@ GameObject:
   - component: {fileID: 4970109091545694}
   - component: {fileID: 33786956109767666}
   - component: {fileID: 23884756467078198}
-  - component: {fileID: 64257527254456596}
+  - component: {fileID: 405450277148217694}
   m_Layer: 0
   m_Name: greek_wall_divider_2_corner
   m_TagString: Untagged
@@ -729,8 +723,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64257527254456596
-MeshCollider:
+--- !u!65 &405450277148217694
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -747,10 +741,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 02997355c76e145a0892ff4a314cbb76, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 0.5999999, z: 0.30000004}
+  m_Center: {x: 0.15, y: 0, z: -0.15000002}
 --- !u!1 &1076020747917936
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +755,7 @@ GameObject:
   - component: {fileID: 4461068104266396}
   - component: {fileID: 33364120033753888}
   - component: {fileID: 23260062528199422}
-  - component: {fileID: 64831615538443186}
+  - component: {fileID: 8331606906482914360}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -835,8 +828,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64831615538443186
-MeshCollider:
+--- !u!65 &8331606906482914360
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -853,10 +846,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1080354843017578
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +860,7 @@ GameObject:
   - component: {fileID: 4864756601605652}
   - component: {fileID: 33791545107500926}
   - component: {fileID: 23474867640336206}
-  - component: {fileID: 64319329209033866}
+  - component: {fileID: 4502189955462221789}
   m_Layer: 0
   m_Name: greek_wall_divider_2
   m_TagString: Untagged
@@ -941,8 +933,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64319329209033866
-MeshCollider:
+--- !u!65 &4502189955462221789
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -959,10 +951,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2d2e1fd5462c74fc88283701d773cbe4, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.5999999, z: 0.59999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1081230026954744
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +965,7 @@ GameObject:
   - component: {fileID: 4333816070445454}
   - component: {fileID: 33552904589919626}
   - component: {fileID: 23229094682518462}
-  - component: {fileID: 64928996603390280}
+  - component: {fileID: 2841177214082268032}
   m_Layer: 0
   m_Name: greek_tree_2
   m_TagString: Untagged
@@ -1048,8 +1039,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64928996603390280
-MeshCollider:
+--- !u!65 &2841177214082268032
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1066,10 +1057,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.96405, y: 9.492209, z: 1.892389}
+  m_Center: {x: 0.043289453, y: 3.7461047, z: -0.10104683}
 --- !u!1 &1086039088370198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1071,7 @@ GameObject:
   - component: {fileID: 4123245184980746}
   - component: {fileID: 33493671883059916}
   - component: {fileID: 23789462591426158}
-  - component: {fileID: 64552441128595502}
+  - component: {fileID: 8826331250111129948}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -1155,8 +1145,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64552441128595502
-MeshCollider:
+--- !u!65 &8826331250111129948
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1173,10 +1163,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1086318935849726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1177,7 @@ GameObject:
   - component: {fileID: 4226542594694048}
   - component: {fileID: 33208058279602772}
   - component: {fileID: 23304448333092162}
-  - component: {fileID: 64986641412399540}
+  - component: {fileID: 3077913861020671555}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -1263,8 +1252,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64986641412399540
-MeshCollider:
+--- !u!65 &3077913861020671555
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1281,10 +1270,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1093026254538070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,7 +1284,7 @@ GameObject:
   - component: {fileID: 4913072374613250}
   - component: {fileID: 33839371030817444}
   - component: {fileID: 23648002809521972}
-  - component: {fileID: 64736471376075900}
+  - component: {fileID: 6203370682522661347}
   m_Layer: 0
   m_Name: greek_wall_divider_2_corner
   m_TagString: Untagged
@@ -1369,8 +1357,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64736471376075900
-MeshCollider:
+--- !u!65 &6203370682522661347
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1387,10 +1375,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 02997355c76e145a0892ff4a314cbb76, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.29999995, y: 0.5999999, z: 0.29999998}
+  m_Center: {x: 0.14999998, y: 0, z: -0.14999999}
 --- !u!1 &1115752559286654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,7 +1389,7 @@ GameObject:
   - component: {fileID: 4589901421769120}
   - component: {fileID: 33526388006795890}
   - component: {fileID: 23829530790208094}
-  - component: {fileID: 64544711572427972}
+  - component: {fileID: 3670394595319442386}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -1477,8 +1464,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64544711572427972
-MeshCollider:
+--- !u!65 &3670394595319442386
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1495,10 +1482,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1115795330177506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,7 +1496,7 @@ GameObject:
   - component: {fileID: 4388901982202812}
   - component: {fileID: 33880117580783194}
   - component: {fileID: 23625455140904250}
-  - component: {fileID: 64920426698877572}
+  - component: {fileID: 5393602006889666444}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -1584,8 +1570,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64920426698877572
-MeshCollider:
+--- !u!65 &5393602006889666444
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1602,10 +1588,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000014, y: 0.6, z: 0.6000008}
+  m_Center: {x: -0.00000035762795, y: 0.100000046, z: -0.10000002}
 --- !u!1 &1134738029140674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,7 +1602,7 @@ GameObject:
   - component: {fileID: 4398294683521842}
   - component: {fileID: 33207084208275354}
   - component: {fileID: 23553961630441724}
-  - component: {fileID: 64246092441075558}
+  - component: {fileID: 5901928625333403977}
   m_Layer: 0
   m_Name: greek_wall_divider_2_corner
   m_TagString: Untagged
@@ -1690,8 +1675,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64246092441075558
-MeshCollider:
+--- !u!65 &5901928625333403977
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1708,10 +1693,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 02997355c76e145a0892ff4a314cbb76, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 0.5999999, z: 0.30000004}
+  m_Center: {x: 0.15, y: 0, z: -0.15000002}
 --- !u!1 &1152512874826684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,7 +1707,7 @@ GameObject:
   - component: {fileID: 4692195844715106}
   - component: {fileID: 33234448591905214}
   - component: {fileID: 23494665677984578}
-  - component: {fileID: 64653007774355638}
+  - component: {fileID: 7526146016882428382}
   m_Layer: 0
   m_Name: greek_roof_1_square
   m_TagString: Untagged
@@ -1796,8 +1780,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64653007774355638
-MeshCollider:
+--- !u!65 &7526146016882428382
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1814,10 +1798,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 1e02a01f810e841ac81258ac38b3ea5b, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 12, y: 2, z: 11.999999}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1163130443781680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,7 +1812,7 @@ GameObject:
   - component: {fileID: 4579918311472430}
   - component: {fileID: 33698866179464762}
   - component: {fileID: 23876749733596856}
-  - component: {fileID: 64572909897592824}
+  - component: {fileID: 9127422169935629048}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -1903,8 +1886,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64572909897592824
-MeshCollider:
+--- !u!65 &9127422169935629048
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1921,10 +1904,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1164288450502436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2036,7 @@ Transform:
   - {fileID: 4095689481412184}
   - {fileID: 4289084139732392}
   - {fileID: 4977211986580690}
+  - {fileID: 8390220154218859082}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2068,7 +2051,7 @@ GameObject:
   - component: {fileID: 4034941773052192}
   - component: {fileID: 33317781649479344}
   - component: {fileID: 23452075143041434}
-  - component: {fileID: 64833062240301880}
+  - component: {fileID: 7230432302833393295}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -2142,8 +2125,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64833062240301880
-MeshCollider:
+--- !u!65 &7230432302833393295
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2160,10 +2143,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1179406233134928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,7 +2157,7 @@ GameObject:
   - component: {fileID: 4760790408312394}
   - component: {fileID: 33347955950920830}
   - component: {fileID: 23810904391037904}
-  - component: {fileID: 64326709552267692}
+  - component: {fileID: 3067692878690124048}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -2249,8 +2231,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64326709552267692
-MeshCollider:
+--- !u!65 &3067692878690124048
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2267,10 +2249,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1181499951687258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,7 +2263,7 @@ GameObject:
   - component: {fileID: 4114224785271694}
   - component: {fileID: 33056148833577800}
   - component: {fileID: 23136204133320196}
-  - component: {fileID: 64059461599836914}
+  - component: {fileID: 2455041023819321003}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -2356,8 +2337,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64059461599836914
-MeshCollider:
+--- !u!65 &2455041023819321003
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2374,10 +2355,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1201340189996112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,7 +2369,7 @@ GameObject:
   - component: {fileID: 4289084139732392}
   - component: {fileID: 33761896349364772}
   - component: {fileID: 23782935632488556}
-  - component: {fileID: 64886202968894822}
+  - component: {fileID: 5443913985846414472}
   m_Layer: 0
   m_Name: greek_wall_2_door
   m_TagString: Untagged
@@ -2463,7 +2443,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64886202968894822
+--- !u!64 &5443913985846414472
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2496,7 +2476,7 @@ GameObject:
   - component: {fileID: 4512000041050912}
   - component: {fileID: 33676266069517918}
   - component: {fileID: 23893514400685950}
-  - component: {fileID: 64708578724981782}
+  - component: {fileID: 5190885647690054764}
   m_Layer: 0
   m_Name: greek_column_1
   m_TagString: Untagged
@@ -2571,8 +2551,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64708578724981782
-MeshCollider:
+--- !u!65 &5190885647690054764
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2589,10 +2569,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2a454462cc1bc47eab5642f1bcf4ba54, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2.0000477, y: 7.000143, z: 2.0000854}
+  m_Center: {x: 0.000009298325, y: 2.499992, z: 0.000020563602}
 --- !u!1 &1205432917259284
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,7 +2583,7 @@ GameObject:
   - component: {fileID: 4898159105908940}
   - component: {fileID: 33767210702225140}
   - component: {fileID: 23400482532621544}
-  - component: {fileID: 64726605463698648}
+  - component: {fileID: 4352756272253326457}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -2679,8 +2658,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64726605463698648
-MeshCollider:
+--- !u!65 &4352756272253326457
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2697,10 +2676,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1232542835502404
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,7 +2690,7 @@ GameObject:
   - component: {fileID: 4095689481412184}
   - component: {fileID: 33843875480179986}
   - component: {fileID: 23017948315285756}
-  - component: {fileID: 64947379389985908}
+  - component: {fileID: 594454341789294774}
   m_Layer: 0
   m_Name: greek_wall_2
   m_TagString: Untagged
@@ -2785,8 +2763,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64947379389985908
-MeshCollider:
+--- !u!65 &594454341789294774
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2803,10 +2781,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f1367657d847b445c9c29ab1d32aaf45, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 0.39999992}
+  m_Center: {x: 0, y: 1.5, z: -1.3323947e-15}
 --- !u!1 &1237089280580530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2818,7 +2795,7 @@ GameObject:
   - component: {fileID: 4947327151130498}
   - component: {fileID: 33561942473592086}
   - component: {fileID: 23165297579176374}
-  - component: {fileID: 64687574454945930}
+  - component: {fileID: 6846858339405439600}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -2892,8 +2869,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64687574454945930
-MeshCollider:
+--- !u!65 &6846858339405439600
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2910,10 +2887,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1244591217862992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,7 +2901,7 @@ GameObject:
   - component: {fileID: 4170658640295312}
   - component: {fileID: 33615874349749142}
   - component: {fileID: 23905705002915156}
-  - component: {fileID: 64395682474848864}
+  - component: {fileID: 734861760219013310}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -2998,8 +2974,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64395682474848864
-MeshCollider:
+--- !u!65 &734861760219013310
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3016,10 +2992,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1251788981365484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3031,7 +3006,7 @@ GameObject:
   - component: {fileID: 4053751693984062}
   - component: {fileID: 33027860911376264}
   - component: {fileID: 23267354385459854}
-  - component: {fileID: 64355313750455048}
+  - component: {fileID: 2493773662640950592}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -3105,8 +3080,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64355313750455048
-MeshCollider:
+--- !u!65 &2493773662640950592
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3123,10 +3098,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1277896274193490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,7 +3112,7 @@ GameObject:
   - component: {fileID: 4290656706560262}
   - component: {fileID: 33377994426364346}
   - component: {fileID: 23605176428881248}
-  - component: {fileID: 64190374933306100}
+  - component: {fileID: 5101940918148422435}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -3213,8 +3187,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64190374933306100
-MeshCollider:
+--- !u!65 &5101940918148422435
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3231,10 +3205,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1283988680662000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,7 +3219,7 @@ GameObject:
   - component: {fileID: 4284495510312664}
   - component: {fileID: 33268304631476180}
   - component: {fileID: 23483208875335330}
-  - component: {fileID: 64106511964768952}
+  - component: {fileID: 8668786881820682130}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -3320,8 +3293,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64106511964768952
-MeshCollider:
+--- !u!65 &8668786881820682130
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3338,10 +3311,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1286026867734690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,7 +3325,7 @@ GameObject:
   - component: {fileID: 4101030673590696}
   - component: {fileID: 33321969497672534}
   - component: {fileID: 23941179230823278}
-  - component: {fileID: 64240422593956402}
+  - component: {fileID: 6464406798486977409}
   m_Layer: 0
   m_Name: greek_stairs_stone_corner
   m_TagString: Untagged
@@ -3426,8 +3398,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64240422593956402
-MeshCollider:
+--- !u!65 &6464406798486977409
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3444,10 +3416,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 27d661bd65a7a4c7b8b90324c3430a85, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 3.0037084, z: 1.0000001}
+  m_Center: {x: 0.5000002, y: -0.49814582, z: -0.49999994}
 --- !u!1 &1310762543712642
 GameObject:
   m_ObjectHideFlags: 0
@@ -3459,7 +3430,7 @@ GameObject:
   - component: {fileID: 4969441816271576}
   - component: {fileID: 33831226480276468}
   - component: {fileID: 23229209811636414}
-  - component: {fileID: 64704405137631050}
+  - component: {fileID: 9122298705896281280}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -3534,8 +3505,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64704405137631050
-MeshCollider:
+--- !u!65 &9122298705896281280
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3552,10 +3523,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1314724385496066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,7 +3537,7 @@ GameObject:
   - component: {fileID: 4782109307762396}
   - component: {fileID: 33545192565295872}
   - component: {fileID: 23550846186499784}
-  - component: {fileID: 64613563864375802}
+  - component: {fileID: 2185896703864389888}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -3642,8 +3612,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64613563864375802
-MeshCollider:
+--- !u!65 &2185896703864389888
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3660,10 +3630,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1322946154161874
 GameObject:
   m_ObjectHideFlags: 0
@@ -3675,7 +3644,7 @@ GameObject:
   - component: {fileID: 4111283015535924}
   - component: {fileID: 33526304931454288}
   - component: {fileID: 23910165114591446}
-  - component: {fileID: 64806750357813926}
+  - component: {fileID: 1838165404069236916}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -3749,8 +3718,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64806750357813926
-MeshCollider:
+--- !u!65 &1838165404069236916
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3767,10 +3736,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1324921901787382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,7 +3750,7 @@ GameObject:
   - component: {fileID: 4427635896317106}
   - component: {fileID: 33204026337937180}
   - component: {fileID: 23301443041309074}
-  - component: {fileID: 64544451407401024}
+  - component: {fileID: 6819053956315982758}
   m_Layer: 0
   m_Name: greek_wall_divider_2
   m_TagString: Untagged
@@ -3855,8 +3823,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64544451407401024
-MeshCollider:
+--- !u!65 &6819053956315982758
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3873,10 +3841,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2d2e1fd5462c74fc88283701d773cbe4, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.5999999, z: 0.59999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1330183270316716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3888,7 +3855,7 @@ GameObject:
   - component: {fileID: 4743927148263560}
   - component: {fileID: 33464532266189106}
   - component: {fileID: 23454685263934108}
-  - component: {fileID: 64178680835300264}
+  - component: {fileID: 4588656860557368950}
   m_Layer: 0
   m_Name: greek_column_1
   m_TagString: Untagged
@@ -3963,8 +3930,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64178680835300264
-MeshCollider:
+--- !u!65 &4588656860557368950
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3981,10 +3948,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2a454462cc1bc47eab5642f1bcf4ba54, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2.0000477, y: 7.000143, z: 2.0000854}
+  m_Center: {x: 0.000009298325, y: 2.499992, z: 0.000020563602}
 --- !u!1 &1340678852135902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,7 +3962,7 @@ GameObject:
   - component: {fileID: 4233516117750578}
   - component: {fileID: 33259564573449974}
   - component: {fileID: 23088591048407616}
-  - component: {fileID: 64132647155364236}
+  - component: {fileID: 3294951997253958570}
   m_Layer: 0
   m_Name: greek_wall_divider_1_corner
   m_TagString: Untagged
@@ -4070,8 +4036,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64132647155364236
-MeshCollider:
+--- !u!65 &3294951997253958570
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4088,10 +4054,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1ce29e0fa80ac4312a9837582ffebb90, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.40000054, y: 0.6, z: 0.4000007}
+  m_Center: {x: 0.1999998, y: 0.100000046, z: -0.19999999}
 --- !u!1 &1347895651500860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,7 +4068,7 @@ GameObject:
   - component: {fileID: 4944359873450974}
   - component: {fileID: 33263955688642070}
   - component: {fileID: 23805361439644180}
-  - component: {fileID: 64449760556228754}
+  - component: {fileID: 4161784926212867974}
   m_Layer: 0
   m_Name: greek_wall_column_1
   m_TagString: Untagged
@@ -4178,8 +4143,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64449760556228754
-MeshCollider:
+--- !u!65 &4161784926212867974
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4196,10 +4161,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.79999995, y: 3.0000005, z: 0.7999999}
+  m_Center: {x: 0.000000014901161, y: 1.5000002, z: 0}
 --- !u!1 &1359230799915482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,7 +4175,7 @@ GameObject:
   - component: {fileID: 4771073514587738}
   - component: {fileID: 33572985953673950}
   - component: {fileID: 23994449085342130}
-  - component: {fileID: 64907765720606328}
+  - component: {fileID: 4430924247158065036}
   m_Layer: 0
   m_Name: greek_column_2
   m_TagString: Untagged
@@ -4284,8 +4248,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64907765720606328
-MeshCollider:
+--- !u!65 &4430924247158065036
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4302,10 +4266,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 7bb1029da8cb8486a961bb80138c7219, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.2, y: 8.000015, z: 1.2000016}
+  m_Center: {x: 0, y: 2.0000002, z: 0.0000006556511}
 --- !u!1 &1382003526880386
 GameObject:
   m_ObjectHideFlags: 0
@@ -4317,7 +4280,7 @@ GameObject:
   - component: {fileID: 4683254776118188}
   - component: {fileID: 33676808496547732}
   - component: {fileID: 23632992994151142}
-  - component: {fileID: 64039666150680968}
+  - component: {fileID: 3948446552756812673}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -4392,8 +4355,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64039666150680968
-MeshCollider:
+--- !u!65 &3948446552756812673
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4410,10 +4373,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1394788864391850
 GameObject:
   m_ObjectHideFlags: 0
@@ -4425,7 +4387,7 @@ GameObject:
   - component: {fileID: 4127616560540474}
   - component: {fileID: 33326629076708022}
   - component: {fileID: 23211496868360066}
-  - component: {fileID: 64375583248645134}
+  - component: {fileID: 559631077576238588}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -4499,8 +4461,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64375583248645134
-MeshCollider:
+--- !u!65 &559631077576238588
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4517,10 +4479,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1409957990813284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4532,7 +4493,7 @@ GameObject:
   - component: {fileID: 4917666868847770}
   - component: {fileID: 33709294047381592}
   - component: {fileID: 23898987704476572}
-  - component: {fileID: 64498700489672454}
+  - component: {fileID: 1075373922444692989}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -4607,8 +4568,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64498700489672454
-MeshCollider:
+--- !u!65 &1075373922444692989
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4625,10 +4586,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1411939629282052
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,7 +4600,7 @@ GameObject:
   - component: {fileID: 4658958914050782}
   - component: {fileID: 33849293455554452}
   - component: {fileID: 23640462619400696}
-  - component: {fileID: 64483602804579100}
+  - component: {fileID: 6485513578221118930}
   m_Layer: 0
   m_Name: greek_wall_2
   m_TagString: Untagged
@@ -4713,8 +4673,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64483602804579100
-MeshCollider:
+--- !u!65 &6485513578221118930
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4731,10 +4691,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f1367657d847b445c9c29ab1d32aaf45, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 0.39999992}
+  m_Center: {x: 1.3322676e-15, y: 1.5, z: -1.332321e-15}
 --- !u!1 &1412937709265688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,7 +4705,7 @@ GameObject:
   - component: {fileID: 4736396060916710}
   - component: {fileID: 33605090842328252}
   - component: {fileID: 23936134417481146}
-  - component: {fileID: 64477610818553920}
+  - component: {fileID: 596710898960602039}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -4819,8 +4778,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64477610818553920
-MeshCollider:
+--- !u!65 &596710898960602039
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4837,10 +4796,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1416736376838394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,7 +4810,7 @@ GameObject:
   - component: {fileID: 4778622764271132}
   - component: {fileID: 33537223983870622}
   - component: {fileID: 23574705428790892}
-  - component: {fileID: 64504812062817838}
+  - component: {fileID: 3719293102458848470}
   m_Layer: 0
   m_Name: greek_wall_2
   m_TagString: Untagged
@@ -4925,8 +4883,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64504812062817838
-MeshCollider:
+--- !u!65 &3719293102458848470
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4943,10 +4901,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f1367657d847b445c9c29ab1d32aaf45, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 3, z: 0.4}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1 &1425715780933048
 GameObject:
   m_ObjectHideFlags: 0
@@ -4958,7 +4915,7 @@ GameObject:
   - component: {fileID: 4798406049712392}
   - component: {fileID: 33345209173260510}
   - component: {fileID: 23246449070644700}
-  - component: {fileID: 64167289811467160}
+  - component: {fileID: 4875307126445818564}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -5032,8 +4989,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64167289811467160
-MeshCollider:
+--- !u!65 &4875307126445818564
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5050,10 +5007,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1459854321037688
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,7 +5021,7 @@ GameObject:
   - component: {fileID: 4403901868787998}
   - component: {fileID: 33260044761278270}
   - component: {fileID: 23601101987235520}
-  - component: {fileID: 64422263488221466}
+  - component: {fileID: 3607228630784945980}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -5138,8 +5094,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64422263488221466
-MeshCollider:
+--- !u!65 &3607228630784945980
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5156,10 +5112,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1486162816232456
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,7 +5126,7 @@ GameObject:
   - component: {fileID: 4094884084620734}
   - component: {fileID: 33153878658435392}
   - component: {fileID: 23639304209411988}
-  - component: {fileID: 64332716806661458}
+  - component: {fileID: 146678159058418026}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -5246,8 +5201,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64332716806661458
-MeshCollider:
+--- !u!65 &146678159058418026
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5264,10 +5219,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1486311500369310
 GameObject:
   m_ObjectHideFlags: 0
@@ -5279,7 +5233,7 @@ GameObject:
   - component: {fileID: 4129998676475848}
   - component: {fileID: 33809382768480212}
   - component: {fileID: 23299388483254540}
-  - component: {fileID: 64788101311777092}
+  - component: {fileID: 7791775857332594773}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -5353,8 +5307,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64788101311777092
-MeshCollider:
+--- !u!65 &7791775857332594773
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5371,10 +5325,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1502432776775778
 GameObject:
   m_ObjectHideFlags: 0
@@ -5386,7 +5339,7 @@ GameObject:
   - component: {fileID: 4685567329250100}
   - component: {fileID: 33010670977408052}
   - component: {fileID: 23284897863783936}
-  - component: {fileID: 64754975405673466}
+  - component: {fileID: 4901997774712024922}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -5460,8 +5413,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64754975405673466
-MeshCollider:
+--- !u!65 &4901997774712024922
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5478,10 +5431,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000014, y: 0.6, z: 0.6000008}
+  m_Center: {x: -0.00000035762795, y: 0.100000046, z: -0.10000002}
 --- !u!1 &1525330960102040
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,7 +5445,7 @@ GameObject:
   - component: {fileID: 4851439073550362}
   - component: {fileID: 33101508919935696}
   - component: {fileID: 23640866623014120}
-  - component: {fileID: 64922850387233690}
+  - component: {fileID: 3120624425807588484}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -5568,8 +5520,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64922850387233690
-MeshCollider:
+--- !u!65 &3120624425807588484
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5586,10 +5538,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1546239657717984
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,7 +5552,7 @@ GameObject:
   - component: {fileID: 4636872884966714}
   - component: {fileID: 33841768414805040}
   - component: {fileID: 23796235153582494}
-  - component: {fileID: 64637047737761830}
+  - component: {fileID: 5725891198132382935}
   m_Layer: 0
   m_Name: greek_wall_divider_1_corner
   m_TagString: Untagged
@@ -5675,8 +5626,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64637047737761830
-MeshCollider:
+--- !u!65 &5725891198132382935
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5693,10 +5644,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1ce29e0fa80ac4312a9837582ffebb90, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.40000048, y: 0.6, z: 0.40000063}
+  m_Center: {x: 0.19999976, y: 0.100000046, z: -0.19999996}
 --- !u!1 &1547968544557898
 GameObject:
   m_ObjectHideFlags: 0
@@ -5708,7 +5658,7 @@ GameObject:
   - component: {fileID: 4997388239808680}
   - component: {fileID: 33044501716770164}
   - component: {fileID: 23467476084984588}
-  - component: {fileID: 64767277249963760}
+  - component: {fileID: 6550286350483197990}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -5783,8 +5733,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64767277249963760
-MeshCollider:
+--- !u!65 &6550286350483197990
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5801,10 +5751,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1548227487225652
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,7 +5765,7 @@ GameObject:
   - component: {fileID: 4282368527552214}
   - component: {fileID: 33164173141788514}
   - component: {fileID: 23970440287392854}
-  - component: {fileID: 64139264406022336}
+  - component: {fileID: 3534596799852998428}
   m_Layer: 0
   m_Name: greek_column_1
   m_TagString: Untagged
@@ -5891,8 +5840,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64139264406022336
-MeshCollider:
+--- !u!65 &3534596799852998428
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5909,10 +5858,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2a454462cc1bc47eab5642f1bcf4ba54, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2.0000477, y: 7.000143, z: 2.0000854}
+  m_Center: {x: 0.000009298325, y: 2.499992, z: 0.000020563602}
 --- !u!1 &1561777644310646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,7 +5872,7 @@ GameObject:
   - component: {fileID: 4450420532264858}
   - component: {fileID: 33581625442433372}
   - component: {fileID: 23913990402831994}
-  - component: {fileID: 64958946575155806}
+  - component: {fileID: 7034704561155208554}
   m_Layer: 0
   m_Name: greek_wall_column_1
   m_TagString: Untagged
@@ -5999,8 +5947,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64958946575155806
-MeshCollider:
+--- !u!65 &7034704561155208554
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6017,10 +5965,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.79999995, y: 3.0000005, z: 0.7999999}
+  m_Center: {x: 0.000000014901161, y: 1.5000002, z: 0}
 --- !u!1 &1583964810232972
 GameObject:
   m_ObjectHideFlags: 0
@@ -6032,7 +5979,7 @@ GameObject:
   - component: {fileID: 4776352277045862}
   - component: {fileID: 33707241787032586}
   - component: {fileID: 23764567745764054}
-  - component: {fileID: 64305545066570732}
+  - component: {fileID: 236256643079441735}
   m_Layer: 0
   m_Name: greek_tree_2
   m_TagString: Untagged
@@ -6106,8 +6053,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64305545066570732
-MeshCollider:
+--- !u!65 &236256643079441735
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6124,10 +6071,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.964051, y: 9.492209, z: 1.8923901}
+  m_Center: {x: 0.04328948, y: 3.7461047, z: -0.101046875}
 --- !u!1 &1599740729347256
 GameObject:
   m_ObjectHideFlags: 0
@@ -6139,7 +6085,7 @@ GameObject:
   - component: {fileID: 4313816723080652}
   - component: {fileID: 33271237569091566}
   - component: {fileID: 23955056349998988}
-  - component: {fileID: 64182817034871378}
+  - component: {fileID: 3243135335646105031}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -6213,8 +6159,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64182817034871378
-MeshCollider:
+--- !u!65 &3243135335646105031
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6231,10 +6177,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000014, y: 0.6, z: 0.6000008}
+  m_Center: {x: -0.00000035762795, y: 0.100000046, z: -0.10000002}
 --- !u!1 &1605489787127266
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,7 +6191,7 @@ GameObject:
   - component: {fileID: 4766820901926572}
   - component: {fileID: 33125286572671322}
   - component: {fileID: 23778941234574326}
-  - component: {fileID: 64494186092893092}
+  - component: {fileID: 2972496992730825160}
   m_Layer: 0
   m_Name: greek_wall_2
   m_TagString: Untagged
@@ -6319,8 +6264,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64494186092893092
-MeshCollider:
+--- !u!65 &2972496992730825160
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6337,10 +6282,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f1367657d847b445c9c29ab1d32aaf45, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 0.39999992}
+  m_Center: {x: 0, y: 1.5, z: -0.0000009536743}
 --- !u!1 &1608184644915482
 GameObject:
   m_ObjectHideFlags: 0
@@ -6352,7 +6296,7 @@ GameObject:
   - component: {fileID: 4977211986580690}
   - component: {fileID: 33865220065806964}
   - component: {fileID: 23851852774756742}
-  - component: {fileID: 64807254600859212}
+  - component: {fileID: 5407256503555029347}
   m_Layer: 0
   m_Name: greek_wall_1_short (1)
   m_TagString: Untagged
@@ -6427,8 +6371,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64807254600859212
-MeshCollider:
+--- !u!65 &5407256503555029347
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6445,10 +6389,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1610764985933040
 GameObject:
   m_ObjectHideFlags: 0
@@ -6460,7 +6403,7 @@ GameObject:
   - component: {fileID: 4291707289951504}
   - component: {fileID: 33738655236179914}
   - component: {fileID: 23233155332653496}
-  - component: {fileID: 64971132518728858}
+  - component: {fileID: 2889454362919390039}
   m_Layer: 0
   m_Name: greek_tree_2
   m_TagString: Untagged
@@ -6534,8 +6477,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64971132518728858
-MeshCollider:
+--- !u!65 &2889454362919390039
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6552,10 +6495,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.9640503, y: 9.492209, z: 1.8923895}
+  m_Center: {x: 0.04328946, y: 3.7461047, z: -0.10104685}
 --- !u!1 &1622978902256270
 GameObject:
   m_ObjectHideFlags: 0
@@ -6567,7 +6509,7 @@ GameObject:
   - component: {fileID: 4086129341558852}
   - component: {fileID: 33911579377521264}
   - component: {fileID: 23986992801079274}
-  - component: {fileID: 64743515239209812}
+  - component: {fileID: 4895738863420779663}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -6641,8 +6583,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64743515239209812
-MeshCollider:
+--- !u!65 &4895738863420779663
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6659,10 +6601,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000014, y: 0.6, z: 0.6000008}
+  m_Center: {x: -0.00000035762795, y: 0.100000046, z: -0.10000002}
 --- !u!1 &1638323134748742
 GameObject:
   m_ObjectHideFlags: 0
@@ -6674,7 +6615,7 @@ GameObject:
   - component: {fileID: 4509052345106720}
   - component: {fileID: 33149447431629954}
   - component: {fileID: 23424527379330048}
-  - component: {fileID: 64792064297980718}
+  - component: {fileID: 7253883632477927001}
   m_Layer: 0
   m_Name: greek_column_2
   m_TagString: Untagged
@@ -6747,8 +6688,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64792064297980718
-MeshCollider:
+--- !u!65 &7253883632477927001
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6765,10 +6706,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 7bb1029da8cb8486a961bb80138c7219, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.2, y: 8.000015, z: 1.2000016}
+  m_Center: {x: 0, y: 2.0000002, z: 0.0000006556511}
 --- !u!1 &1643165776806488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6780,7 +6720,7 @@ GameObject:
   - component: {fileID: 4278703914939962}
   - component: {fileID: 33439784828570192}
   - component: {fileID: 23345599158797282}
-  - component: {fileID: 64565761309905030}
+  - component: {fileID: 5317323255819486609}
   m_Layer: 0
   m_Name: greek_wall_divider_2_corner
   m_TagString: Untagged
@@ -6853,8 +6793,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64565761309905030
-MeshCollider:
+--- !u!65 &5317323255819486609
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6871,10 +6811,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 02997355c76e145a0892ff4a314cbb76, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.29999995, y: 0.5999999, z: 0.29999998}
+  m_Center: {x: 0.14999998, y: 0, z: -0.14999999}
 --- !u!1 &1656205958043014
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,7 +6825,7 @@ GameObject:
   - component: {fileID: 4237095256375780}
   - component: {fileID: 33572408615366186}
   - component: {fileID: 23711012873692936}
-  - component: {fileID: 64114709094352374}
+  - component: {fileID: 3212027313276573289}
   m_Layer: 0
   m_Name: greek_roof_1
   m_TagString: Untagged
@@ -6961,8 +6900,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64114709094352374
-MeshCollider:
+--- !u!65 &3212027313276573289
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6979,10 +6918,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1d75a547b4e724375939511ed282113c, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 12, y: 2, z: 2.06}
+  m_Center: {x: 0, y: 1, z: -1.03}
 --- !u!1 &1661447471389022
 GameObject:
   m_ObjectHideFlags: 0
@@ -6994,7 +6932,7 @@ GameObject:
   - component: {fileID: 4156593153159290}
   - component: {fileID: 33526127557905318}
   - component: {fileID: 23634074912082468}
-  - component: {fileID: 64794444004149556}
+  - component: {fileID: 5215055771142590639}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -7067,8 +7005,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64794444004149556
-MeshCollider:
+--- !u!65 &5215055771142590639
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7085,10 +7023,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1684920244858230
 GameObject:
   m_ObjectHideFlags: 0
@@ -7100,7 +7037,7 @@ GameObject:
   - component: {fileID: 4356895666033542}
   - component: {fileID: 33833823217572296}
   - component: {fileID: 23169981306878804}
-  - component: {fileID: 64377243288859492}
+  - component: {fileID: 3061159964216640660}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -7175,8 +7112,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64377243288859492
-MeshCollider:
+--- !u!65 &3061159964216640660
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7193,10 +7130,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1689298315771768
 GameObject:
   m_ObjectHideFlags: 0
@@ -7208,7 +7144,7 @@ GameObject:
   - component: {fileID: 4264828841096838}
   - component: {fileID: 33412126200514550}
   - component: {fileID: 23626999679814552}
-  - component: {fileID: 64717548869434104}
+  - component: {fileID: 2832939547208820911}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -7282,8 +7218,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64717548869434104
-MeshCollider:
+--- !u!65 &2832939547208820911
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7300,10 +7236,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000014, y: 0.6, z: 0.6000008}
+  m_Center: {x: -0.00000035762795, y: 0.100000046, z: -0.10000002}
 --- !u!1 &1704301232503548
 GameObject:
   m_ObjectHideFlags: 0
@@ -7315,7 +7250,7 @@ GameObject:
   - component: {fileID: 4028552769387276}
   - component: {fileID: 33334955187437594}
   - component: {fileID: 23734114939435110}
-  - component: {fileID: 64208148774936822}
+  - component: {fileID: 7993957789943393674}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -7389,8 +7324,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64208148774936822
-MeshCollider:
+--- !u!65 &7993957789943393674
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7407,10 +7342,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1716084453775752
 GameObject:
   m_ObjectHideFlags: 0
@@ -7422,7 +7356,7 @@ GameObject:
   - component: {fileID: 4112735384659338}
   - component: {fileID: 33230931864463560}
   - component: {fileID: 23510924702170300}
-  - component: {fileID: 64273267397068032}
+  - component: {fileID: 3048524887669951076}
   m_Layer: 0
   m_Name: greek_tree_2
   m_TagString: Untagged
@@ -7496,8 +7430,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64273267397068032
-MeshCollider:
+--- !u!65 &3048524887669951076
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7514,10 +7448,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.96405, y: 9.492209, z: 1.892389}
+  m_Center: {x: 0.043289453, y: 3.7461047, z: -0.10104683}
 --- !u!1 &1736411682051980
 GameObject:
   m_ObjectHideFlags: 0
@@ -7529,7 +7462,7 @@ GameObject:
   - component: {fileID: 4944315245354996}
   - component: {fileID: 33197666643631262}
   - component: {fileID: 23227478070270052}
-  - component: {fileID: 64205309001268830}
+  - component: {fileID: 8444011329847744199}
   m_Layer: 0
   m_Name: greek_roof_support_1_square
   m_TagString: Untagged
@@ -7602,8 +7535,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64205309001268830
-MeshCollider:
+--- !u!65 &8444011329847744199
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7620,10 +7553,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 064b6ba9d50ee47918dbd37de665fa98, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 12, y: 1.9999998, z: 11.999999}
+  m_Center: {x: 0, y: -0.9999999, z: 0}
 --- !u!1 &1740034325173806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7635,7 +7567,7 @@ GameObject:
   - component: {fileID: 4197620116959798}
   - component: {fileID: 33649903450366412}
   - component: {fileID: 23538539878080048}
-  - component: {fileID: 64756064992679758}
+  - component: {fileID: 6894871420156691609}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -7710,8 +7642,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64756064992679758
-MeshCollider:
+--- !u!65 &6894871420156691609
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7728,10 +7660,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1751817070333978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7743,7 +7674,7 @@ GameObject:
   - component: {fileID: 4373069044243282}
   - component: {fileID: 33244248864661878}
   - component: {fileID: 23776480392009270}
-  - component: {fileID: 64497783482404230}
+  - component: {fileID: 4134401309742132386}
   m_Layer: 0
   m_Name: greek_column_1
   m_TagString: Untagged
@@ -7818,8 +7749,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64497783482404230
-MeshCollider:
+--- !u!65 &4134401309742132386
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7836,10 +7767,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2a454462cc1bc47eab5642f1bcf4ba54, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2.0000477, y: 7.000143, z: 2.0000854}
+  m_Center: {x: 0.000009298325, y: 2.499992, z: 0.000020563602}
 --- !u!1 &1772898626232068
 GameObject:
   m_ObjectHideFlags: 0
@@ -7851,7 +7781,7 @@ GameObject:
   - component: {fileID: 4601647430685422}
   - component: {fileID: 33420895776519088}
   - component: {fileID: 23258251421343284}
-  - component: {fileID: 64088093158601608}
+  - component: {fileID: 6097739712705879277}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -7924,8 +7854,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64088093158601608
-MeshCollider:
+--- !u!65 &6097739712705879277
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7942,10 +7872,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1780769555196400
 GameObject:
   m_ObjectHideFlags: 0
@@ -7957,7 +7886,7 @@ GameObject:
   - component: {fileID: 4638723667107554}
   - component: {fileID: 33639896436971662}
   - component: {fileID: 23110667345412488}
-  - component: {fileID: 64158725410941720}
+  - component: {fileID: 6842445211538597096}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -8030,8 +7959,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64158725410941720
-MeshCollider:
+--- !u!65 &6842445211538597096
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8048,10 +7977,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1782831552029958
 GameObject:
   m_ObjectHideFlags: 0
@@ -8063,7 +7991,7 @@ GameObject:
   - component: {fileID: 4677511956349454}
   - component: {fileID: 33432001637083428}
   - component: {fileID: 23427407231229734}
-  - component: {fileID: 64505845248564750}
+  - component: {fileID: 2141790240713107504}
   m_Layer: 0
   m_Name: greek_column_2
   m_TagString: Untagged
@@ -8136,8 +8064,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64505845248564750
-MeshCollider:
+--- !u!65 &2141790240713107504
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8154,10 +8082,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 7bb1029da8cb8486a961bb80138c7219, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.2, y: 8.000013, z: 1.2000016}
+  m_Center: {x: 0, y: 1.9999999, z: 0.0000006556511}
 --- !u!1 &1786431522168622
 GameObject:
   m_ObjectHideFlags: 0
@@ -8169,7 +8096,7 @@ GameObject:
   - component: {fileID: 4886332572112874}
   - component: {fileID: 33428768165293840}
   - component: {fileID: 23619584700549780}
-  - component: {fileID: 64420704702961064}
+  - component: {fileID: 6008372916893352555}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -8243,8 +8170,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64420704702961064
-MeshCollider:
+--- !u!65 &6008372916893352555
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8261,10 +8188,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1800030020398736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8276,7 +8202,7 @@ GameObject:
   - component: {fileID: 4249677750724664}
   - component: {fileID: 33201696145684140}
   - component: {fileID: 23162833821815214}
-  - component: {fileID: 64856418268550182}
+  - component: {fileID: 978915044524591469}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -8351,8 +8277,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64856418268550182
-MeshCollider:
+--- !u!65 &978915044524591469
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8369,10 +8295,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1814063147591956
 GameObject:
   m_ObjectHideFlags: 0
@@ -8384,7 +8309,7 @@ GameObject:
   - component: {fileID: 4674323206231308}
   - component: {fileID: 33242973889119216}
   - component: {fileID: 23266147254915536}
-  - component: {fileID: 64197228716922182}
+  - component: {fileID: 8303706082789165781}
   m_Layer: 0
   m_Name: greek_wall_divider_2
   m_TagString: Untagged
@@ -8457,8 +8382,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64197228716922182
-MeshCollider:
+--- !u!65 &8303706082789165781
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8475,10 +8400,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2d2e1fd5462c74fc88283701d773cbe4, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.5999999, z: 0.6000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1820187984117106
 GameObject:
   m_ObjectHideFlags: 0
@@ -8490,7 +8414,7 @@ GameObject:
   - component: {fileID: 4091735080438616}
   - component: {fileID: 33220517463644826}
   - component: {fileID: 23204505539342262}
-  - component: {fileID: 64253879922578160}
+  - component: {fileID: 8634888175615562487}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -8565,8 +8489,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64253879922578160
-MeshCollider:
+--- !u!65 &8634888175615562487
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8583,10 +8507,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1838502019373628
 GameObject:
   m_ObjectHideFlags: 0
@@ -8598,7 +8521,7 @@ GameObject:
   - component: {fileID: 4652779488543992}
   - component: {fileID: 33629439192737972}
   - component: {fileID: 23868637788180160}
-  - component: {fileID: 64767104622052712}
+  - component: {fileID: 8859014719585382099}
   m_Layer: 0
   m_Name: greek_column_2
   m_TagString: Untagged
@@ -8671,8 +8594,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64767104622052712
-MeshCollider:
+--- !u!65 &8859014719585382099
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8689,10 +8612,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 7bb1029da8cb8486a961bb80138c7219, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.2, y: 8.000015, z: 1.2000016}
+  m_Center: {x: 0, y: 2.0000002, z: 0.0000006556511}
 --- !u!1 &1842609015619544
 GameObject:
   m_ObjectHideFlags: 0
@@ -8704,7 +8626,7 @@ GameObject:
   - component: {fileID: 4179457468212270}
   - component: {fileID: 33531571531682412}
   - component: {fileID: 23214655175534228}
-  - component: {fileID: 64112879386520820}
+  - component: {fileID: 3494571824561948911}
   m_Layer: 0
   m_Name: greek_column_2
   m_TagString: Untagged
@@ -8777,8 +8699,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64112879386520820
-MeshCollider:
+--- !u!65 &3494571824561948911
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8795,10 +8717,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 7bb1029da8cb8486a961bb80138c7219, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.2, y: 8.000013, z: 1.2000016}
+  m_Center: {x: 0, y: 1.9999999, z: 0.0000006556511}
 --- !u!1 &1871356469180682
 GameObject:
   m_ObjectHideFlags: 0
@@ -8810,7 +8731,7 @@ GameObject:
   - component: {fileID: 4793110768190276}
   - component: {fileID: 33112052368004272}
   - component: {fileID: 23110924164746542}
-  - component: {fileID: 64045787660829924}
+  - component: {fileID: 975243494679903112}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -8883,8 +8804,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64045787660829924
-MeshCollider:
+--- !u!65 &975243494679903112
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8901,10 +8822,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1872456144814250
 GameObject:
   m_ObjectHideFlags: 0
@@ -8916,7 +8836,7 @@ GameObject:
   - component: {fileID: 4078702355494294}
   - component: {fileID: 33982974531446162}
   - component: {fileID: 23087421892708280}
-  - component: {fileID: 64581516815553690}
+  - component: {fileID: 7561555908516794498}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -8991,8 +8911,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64581516815553690
-MeshCollider:
+--- !u!65 &7561555908516794498
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9009,10 +8929,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1876969222020036
 GameObject:
   m_ObjectHideFlags: 0
@@ -9024,7 +8943,7 @@ GameObject:
   - component: {fileID: 4013257112802274}
   - component: {fileID: 33476831401950258}
   - component: {fileID: 23203920695640798}
-  - component: {fileID: 64743891947920798}
+  - component: {fileID: 3433671996813932750}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -9099,8 +9018,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64743891947920798
-MeshCollider:
+--- !u!65 &3433671996813932750
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9117,10 +9036,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1900337022728986
 GameObject:
   m_ObjectHideFlags: 0
@@ -9132,7 +9050,7 @@ GameObject:
   - component: {fileID: 4585917454791314}
   - component: {fileID: 33700601033519130}
   - component: {fileID: 23112126441359202}
-  - component: {fileID: 64324719008679374}
+  - component: {fileID: 2878022060004897255}
   m_Layer: 0
   m_Name: greek_wall_2
   m_TagString: Untagged
@@ -9205,8 +9123,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64324719008679374
-MeshCollider:
+--- !u!65 &2878022060004897255
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9223,10 +9141,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f1367657d847b445c9c29ab1d32aaf45, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 0.39999992}
+  m_Center: {x: 1.5312255e-15, y: 1.5, z: 0}
 --- !u!1 &1902313197752716
 GameObject:
   m_ObjectHideFlags: 0
@@ -9238,7 +9155,7 @@ GameObject:
   - component: {fileID: 4959527286002872}
   - component: {fileID: 33408192252349904}
   - component: {fileID: 23951256661941072}
-  - component: {fileID: 64111671577869912}
+  - component: {fileID: 7470192248553007744}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -9313,8 +9230,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64111671577869912
-MeshCollider:
+--- !u!65 &7470192248553007744
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9331,10 +9248,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1903220611674082
 GameObject:
   m_ObjectHideFlags: 0
@@ -9346,7 +9262,7 @@ GameObject:
   - component: {fileID: 4674960237099822}
   - component: {fileID: 33779223528985922}
   - component: {fileID: 23214251100570034}
-  - component: {fileID: 64619076859351460}
+  - component: {fileID: 4449969459069772398}
   m_Layer: 0
   m_Name: greek_wall_divider_2
   m_TagString: Untagged
@@ -9419,8 +9335,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64619076859351460
-MeshCollider:
+--- !u!65 &4449969459069772398
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9437,10 +9353,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2d2e1fd5462c74fc88283701d773cbe4, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.5999999, z: 0.59999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1909553448389492
 GameObject:
   m_ObjectHideFlags: 0
@@ -9452,7 +9367,7 @@ GameObject:
   - component: {fileID: 4523368571576046}
   - component: {fileID: 33654648139729938}
   - component: {fileID: 23252848764499242}
-  - component: {fileID: 64348554243324346}
+  - component: {fileID: 798826126176475620}
   m_Layer: 0
   m_Name: greek_roof_support_1
   m_TagString: Untagged
@@ -9526,8 +9441,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64348554243324346
-MeshCollider:
+--- !u!65 &798826126176475620
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9544,10 +9459,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69a7d92786c3f4e0dbee6da6dc1f947e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 12, y: 2, z: 2}
+  m_Center: {x: 0, y: 1, z: -1}
 --- !u!1 &1918995926619104
 GameObject:
   m_ObjectHideFlags: 0
@@ -9559,7 +9473,7 @@ GameObject:
   - component: {fileID: 4794487223889312}
   - component: {fileID: 33572883887115876}
   - component: {fileID: 23167158009038052}
-  - component: {fileID: 64451245491606106}
+  - component: {fileID: 8245061618581531751}
   m_Layer: 0
   m_Name: greek_tree_2
   m_TagString: Untagged
@@ -9633,8 +9547,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64451245491606106
-MeshCollider:
+--- !u!65 &8245061618581531751
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9651,10 +9565,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.9640503, y: 9.492209, z: 1.8923895}
+  m_Center: {x: 0.04328946, y: 3.7461047, z: -0.10104685}
 --- !u!1 &1922820879133524
 GameObject:
   m_ObjectHideFlags: 0
@@ -9666,7 +9579,7 @@ GameObject:
   - component: {fileID: 4787705894414654}
   - component: {fileID: 33691931823779158}
   - component: {fileID: 23160770396947402}
-  - component: {fileID: 64557595188266290}
+  - component: {fileID: 7068556780955669950}
   m_Layer: 0
   m_Name: greek_stairs_stone
   m_TagString: Untagged
@@ -9739,8 +9652,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64557595188266290
-MeshCollider:
+--- !u!65 &7068556780955669950
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9757,10 +9670,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 083921bd162c04e538d96746617658f2, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3.0037084, z: 1}
+  m_Center: {x: 0, y: -0.49814582, z: 0.5}
 --- !u!1 &1923247664070678
 GameObject:
   m_ObjectHideFlags: 0
@@ -9772,7 +9684,7 @@ GameObject:
   - component: {fileID: 4687434219527978}
   - component: {fileID: 33981755051621850}
   - component: {fileID: 23878229047244940}
-  - component: {fileID: 64372514073102140}
+  - component: {fileID: 498291086458542204}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -9847,8 +9759,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64372514073102140
-MeshCollider:
+--- !u!65 &498291086458542204
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9865,10 +9777,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1923668800972070
 GameObject:
   m_ObjectHideFlags: 0
@@ -9880,7 +9791,7 @@ GameObject:
   - component: {fileID: 4096241610159230}
   - component: {fileID: 33248640152689840}
   - component: {fileID: 23451251404147260}
-  - component: {fileID: 64415532114365244}
+  - component: {fileID: 7893940973722407423}
   m_Layer: 0
   m_Name: greek_tree_2
   m_TagString: Untagged
@@ -9954,8 +9865,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64415532114365244
-MeshCollider:
+--- !u!65 &7893940973722407423
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9972,10 +9883,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.964051, y: 9.492209, z: 1.8923901}
+  m_Center: {x: 0.04328948, y: 3.7461047, z: -0.101046875}
 --- !u!1 &1924484704262336
 GameObject:
   m_ObjectHideFlags: 0
@@ -9987,7 +9897,7 @@ GameObject:
   - component: {fileID: 4646609562939660}
   - component: {fileID: 33541312745701144}
   - component: {fileID: 23887134168448122}
-  - component: {fileID: 64325811455033980}
+  - component: {fileID: 5365999625840963368}
   m_Layer: 0
   m_Name: greek_wall_divider_1_corner
   m_TagString: Untagged
@@ -10061,8 +9971,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64325811455033980
-MeshCollider:
+--- !u!65 &5365999625840963368
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10079,10 +9989,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1ce29e0fa80ac4312a9837582ffebb90, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.40000054, y: 0.6, z: 0.4000007}
+  m_Center: {x: 0.1999998, y: 0.100000046, z: -0.19999999}
 --- !u!1 &1927874015465150
 GameObject:
   m_ObjectHideFlags: 0
@@ -10094,7 +10003,7 @@ GameObject:
   - component: {fileID: 4736296184269098}
   - component: {fileID: 33054356625032094}
   - component: {fileID: 23398713074643230}
-  - component: {fileID: 64409023290970980}
+  - component: {fileID: 6475464295910565785}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -10168,8 +10077,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64409023290970980
-MeshCollider:
+--- !u!65 &6475464295910565785
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10186,10 +10095,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1946774269816324
 GameObject:
   m_ObjectHideFlags: 0
@@ -10201,7 +10109,7 @@ GameObject:
   - component: {fileID: 4947351317108820}
   - component: {fileID: 33256279294693758}
   - component: {fileID: 23909000127031294}
-  - component: {fileID: 64483648231311886}
+  - component: {fileID: 7238858167679062737}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -10275,8 +10183,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64483648231311886
-MeshCollider:
+--- !u!65 &7238858167679062737
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10293,10 +10201,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1950101060682714
 GameObject:
   m_ObjectHideFlags: 0
@@ -10308,7 +10215,7 @@ GameObject:
   - component: {fileID: 4964949510923024}
   - component: {fileID: 33989750810078514}
   - component: {fileID: 23296915841436534}
-  - component: {fileID: 64176498617075748}
+  - component: {fileID: 8107095932730171575}
   m_Layer: 0
   m_Name: greek_column_2
   m_TagString: Untagged
@@ -10381,8 +10288,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64176498617075748
-MeshCollider:
+--- !u!65 &8107095932730171575
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10399,10 +10306,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 7bb1029da8cb8486a961bb80138c7219, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.2, y: 8.000015, z: 1.2000016}
+  m_Center: {x: 0, y: 2.0000002, z: 0.0000006556511}
 --- !u!1 &1954791605778150
 GameObject:
   m_ObjectHideFlags: 0
@@ -10414,7 +10320,7 @@ GameObject:
   - component: {fileID: 4809015097316220}
   - component: {fileID: 33513504831018466}
   - component: {fileID: 23071846393259228}
-  - component: {fileID: 64963718771538504}
+  - component: {fileID: 8780408823483069587}
   m_Layer: 0
   m_Name: greek_wall_1_short
   m_TagString: Untagged
@@ -10489,8 +10395,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64963718771538504
-MeshCollider:
+--- !u!65 &8780408823483069587
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10507,10 +10413,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 77537921c0b204def9132f23c1cea5eb, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0026817, y: 1.0129111, z: 0.5001768}
+  m_Center: {x: -0.0013408065, y: 0.49354446, z: -0.00010090321}
 --- !u!1 &1974586257096846
 GameObject:
   m_ObjectHideFlags: 0
@@ -10522,7 +10427,7 @@ GameObject:
   - component: {fileID: 4815499199223100}
   - component: {fileID: 33643066800889398}
   - component: {fileID: 23002146319595366}
-  - component: {fileID: 64436944957964840}
+  - component: {fileID: 2276815968596562566}
   m_Layer: 0
   m_Name: greek_wall_divider_1
   m_TagString: Untagged
@@ -10596,8 +10501,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64436944957964840
-MeshCollider:
+--- !u!65 &2276815968596562566
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10614,10 +10519,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e304c4f9872bd4b259b496c97b54e00d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3.0000007, y: 0.6, z: 0.6000007}
+  m_Center: {x: -0.00000035762787, y: 0.100000046, z: -0.099999994}
 --- !u!1 &1978486196728456
 GameObject:
   m_ObjectHideFlags: 0
@@ -10629,7 +10533,7 @@ GameObject:
   - component: {fileID: 4136674553350698}
   - component: {fileID: 33697045664962818}
   - component: {fileID: 23670688974491448}
-  - component: {fileID: 64988888372104136}
+  - component: {fileID: 3240481342675450696}
   m_Layer: 0
   m_Name: greek_wall_divider_1_corner
   m_TagString: Untagged
@@ -10703,8 +10607,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64988888372104136
-MeshCollider:
+--- !u!65 &3240481342675450696
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10721,10 +10625,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1ce29e0fa80ac4312a9837582ffebb90, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.40000054, y: 0.6, z: 0.4000007}
+  m_Center: {x: 0.1999998, y: 0.100000046, z: -0.19999999}
 --- !u!1 &1979306741978874
 GameObject:
   m_ObjectHideFlags: 0
@@ -10736,7 +10639,7 @@ GameObject:
   - component: {fileID: 4198754003768880}
   - component: {fileID: 33537581985962690}
   - component: {fileID: 23699092228879894}
-  - component: {fileID: 64747669610943612}
+  - component: {fileID: 4926177394621154926}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -10811,8 +10714,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64747669610943612
-MeshCollider:
+--- !u!65 &4926177394621154926
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10829,10 +10732,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
 --- !u!1 &1989760430371966
 GameObject:
   m_ObjectHideFlags: 0
@@ -10844,7 +10746,7 @@ GameObject:
   - component: {fileID: 4328316867276104}
   - component: {fileID: 33626964173694104}
   - component: {fileID: 23430953528372022}
-  - component: {fileID: 64418873981488692}
+  - component: {fileID: 2904913090064560597}
   m_Layer: 0
   m_Name: greek_floor_stone_1
   m_TagString: Untagged
@@ -10919,8 +10821,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64418873981488692
-MeshCollider:
+--- !u!65 &2904913090064560597
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10937,7 +10839,195 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 69eb944f6a0da40f7b2dedf645a16d6d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.11000001, z: 3}
+  m_Center: {x: 0, y: -0.045000006, z: 0}
+--- !u!1 &1339321754934903217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2341609065769832123}
+  - component: {fileID: 2497154351145303584}
+  - component: {fileID: 3442096724516284188}
+  m_Layer: 0
+  m_Name: pomo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2341609065769832123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339321754934903217}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.018933773, y: 0.00049236865, z: 0.0011590971}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8390220154218859082}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2497154351145303584
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339321754934903217}
+  m_Mesh: {fileID: 4300032, guid: f0ec8a00e025fef4a8414ca0daeebbc7, type: 3}
+--- !u!23 &3442096724516284188
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339321754934903217}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a4edbbfff8e104143be551740bc97437, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9174722753339289737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8390220154218859082}
+  - component: {fileID: 1146954568647374396}
+  - component: {fileID: 4045659514129150230}
+  - component: {fileID: 5945368488674824868}
+  m_Layer: 0
+  m_Name: WoodenDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8390220154218859082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174722753339289737}
+  m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 14.75, y: 2, z: 9.25}
+  m_LocalScale: {x: 66.906815, y: 70.87136, z: 39.210728}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2341609065769832123}
+  m_Father: {fileID: 4064555647032484}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!33 &1146954568647374396
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174722753339289737}
+  m_Mesh: {fileID: 4300030, guid: f0ec8a00e025fef4a8414ca0daeebbc7, type: 3}
+--- !u!23 &4045659514129150230
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174722753339289737}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b301fdb93c76dfc4b8e0065f2f17957d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5945368488674824868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174722753339289737}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.021763643, y: 0.035550527, z: 0.0020757066}
+  m_Center: {x: -0.010839188, y: 0.0042332513, z: -0.00040952166}
